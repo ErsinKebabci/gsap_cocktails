@@ -53,10 +53,25 @@ body {
 }
 
 @utility masked-img {
-  mask-image: url("/images/mask-img.png");
+  /*mask-image: url("/images/mask-img.png");
   mask-repeat: no-repeat;
   mask-position: center;
+  mask
+  mask-size: 50%;*/
+  -webkit-mask-image: url("/images/mask-img.png");
+  mask-image: url("/images/mask-img.png");
+
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+
+  -webkit-mask-position: center center;
+  mask-position: center center;
+
+  -webkit-mask-size: 50%;
   mask-size: 50%;
+
+  /* Transform fix */
+  transform-origin: 50% 50%;
 }
 
 @layer components {

@@ -170,14 +170,14 @@ const sliderLists = [
 ];
 
 export {
-  navLinks,
   cocktailLists,
-  mockTailLists,
-  profileLists,
   featureLists,
   goodLists,
+  mockTailLists,
+  navLinks,
   openingHours,
-  storeInfo,
-  socials,
+  profileLists,
   sliderLists,
+  socials,
+  storeInfo,
 };
