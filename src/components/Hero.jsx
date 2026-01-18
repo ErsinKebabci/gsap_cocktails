@@ -68,7 +68,7 @@ const Hero = () => {
   return (
     <>
       <section id="hero" className="noisy">
-        <h1 className="title"> MOJITO </h1>
+        <h1 className="title">Edeler</h1>
         <img
           src="/images/hero-left-leaf.png"
           alt="left-leaf"
@@ -82,18 +82,19 @@ const Hero = () => {
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
-              <p>Cool. Crisp. Classic.</p>
+              <p>Serin. Ferahlatıcı. Klasik.</p>
               <p className="subtitle">
-                Sip the Spirit <br /> of Summer
+                Yazın Sıcaklığında <br />
+                İçinizi ferahlatın
               </p>
             </div>
             <div className="view-cocktails">
               <p className="subtitle">
-                Every cocktail on our menu is a blend of premium
-                ingredients,creative flair, and timeless recipes-designed to
-                delight your senses.
+                Menümüzdeki her kokteyl, birinci sınıf malzemelerin, yaratıcı
+                yeteneğin ve zamansız tariflerin bir karışımıdır ve duyularınızı
+                memnun etmek için tasarlanmıştır.
               </p>
-              <a href="#cocktails">View Cocktails</a>
+              <a href="#cocktails">Kokteylleri Görüntüle</a>
             </div>
           </div>
         </div>

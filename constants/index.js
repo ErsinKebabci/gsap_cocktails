@@ -1,19 +1,19 @@
 const navLinks = [
   {
     id: "cocktails",
-    title: "Cocktails",
+    title: "KOKTEYLLER",
   },
   {
     id: "about",
-    title: "About Us",
+    title: "Hakımızda",
   },
   {
     id: "work",
-    title: "The Art",
+    title: "Sanat",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "İletişim",
   },
 ];
 
